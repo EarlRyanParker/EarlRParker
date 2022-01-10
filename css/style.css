@@ -1,0 +1,261 @@
+/*
+Color1: #101010	
+Color2: #393E46
+Color3: #00ADB5
+Color4: #EEEEEE
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #101010;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+h1 {
+  color: #eeeeee;
+  font-size: 3.6rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 5px;
+  color: #eeeeee;
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #010202;
+  font-size: 1.8rem;
+}
+
+h4 {
+  color: #393e46;
+  font-size: 1.4rem;
+}
+
+hr {
+  max-width: 120rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+footer {
+  height: 100px;
+  background-color: #eeeeee;
+  width: 100vm;
+}
+
+img {
+  max-width: 80rem;
+  height: auto;
+}
+
+/*----------- Reusable CSS -----------*/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/*----------- Header SECTION -----------*/
+.toolbar {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.nav-btn {
+  margin-right: 60px;
+}
+
+/*----------- Landing Page SECTION -----------*/
+.intro-container {
+  margin-top: 290px;
+  margin-bottom: 550px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/*----------- About Me SECTION -----------*/
+
+.icons {
+  stroke: #eeeeee;
+  fill: #101010;
+}
+
+.aboutme-section {
+  margin-bottom: 160px;
+  text-align: left;
+}
+.aboutme-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin-top: 25px;
+}
+
+.passions-container {
+  background-image: linear-gradient(to bottom right, white, rgb(228, 227, 227));
+  padding: 10px;
+  box-shadow: 0 0 10px 0 white;
+}
+/*----------- PROJECTS SECTION -----------*/
+.projects-section {
+  text-align: left;
+}
+
+.projects-grid {
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.project-container {
+  background-image: linear-gradient(to bottom right, white, rgb(228, 227, 227));
+  text-align: left;
+  padding: 24px;
+  box-shadow: 0 0 10px 0 white;
+}
+
+.project-content-container {
+}
+
+.skills-section {
+  margin-top: 160px;
+}
+/*----------- SKILLS SECTION -----------*/
+.skills-container {
+  align-items: left;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.skilldescription-container {
+  background-image: linear-gradient(to bottom right, white, rgb(228, 227, 227));
+  padding: 2.4rem;
+  box-shadow: 0 0 10px 0 white;
+  display: flex;
+}
+
+/*----------- CONTACT ME SECTION -----------*/
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #010202;
+  padding: 1.2rem 5rem;
+  background-image: linear-gradient(
+    to bottom right,
+    white,
+    rgba(228, 227, 227)
+  );
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  transition: all 0.4s;
+  border: none;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.btn2 {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #eeeeee;
+  padding: 1.2rem 5rem;
+  background-color: #101010;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  transition: all 0.4s;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn2:hover,
+.btn2:active {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
+.contactme-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.7rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+/*----------- FOOTER SECTION -----------*/
+
+.footer-container {
+}
+.footer-links-container {
+}
+.footer-links {
+  font-size: 1.8rem;
+  color: #393e46;
+}
