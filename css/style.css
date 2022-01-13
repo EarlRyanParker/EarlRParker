@@ -71,6 +71,32 @@ img {
   height: auto;
 }
 
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(226, 226, 226);
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(226, 226, 226);
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(226, 226, 226);
+}
+
 /*----------- Reusable CSS -----------*/
 .container {
   max-width: 120rem;
@@ -96,11 +122,28 @@ img {
   margin-right: 60px;
 }
 
+.download-btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #eeeeee;
+  padding: 1.2rem 5rem;
+  background-color: #101010;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  transition: all 0.4s;
+  border: none;
+  margin-right: 10px;
+}
+
+.download-btn:hover,
+.download-btn:active {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
 /*----------- Landing Page SECTION -----------*/
 .intro-container {
-  margin-top: 290px;
-  margin-bottom: 550px;
-
+  margin-top: 40vh;
+  margin-bottom: 45vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,14 +270,38 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
-
+  width: 60%;
   background-color: white;
-  padding: 6rem;
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1rem white;
   z-index: 10;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.contactme-form {
+  padding: 4rem;
 }
 
+.left-container {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.form-title {
+  margin-bottom: 1rem;
+}
+
+.right-container {
+  background: url(../images/flower.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.form-item {
+  margin-bottom: 1.8rem;
+}
 .close-modal {
   position: absolute;
   top: 0.7rem;

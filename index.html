@@ -28,14 +28,51 @@
       </nav>
 
       <div class="links">
-        <button class="btn2" href="">Download Resume</button>
+        <a
+          class="download-btn"
+          href="EarlRyanParkerResume2022.pdf"
+          download="EarlRParker Resume"
+          >Download Resume</a
+        >
         <button class="btn nav-btn" href="#contact-me-id">Contact me</button>
       </div>
     </header>
 
-    <div class="modal hidden">
+    <div class="modal">
       <button class="close-modal">&times;</button>
-      <h3>Let's Work Together</h3>
+      <div class="left-container">
+        <form class="contactme-form" action="">
+          <div class="form-title"><h3>Let's Get In Touch!</h3></div>
+          <div class="form-item">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Name.."
+            />
+          </div>
+
+          <div class="form-item">
+            <input type="email" id="email" name="email" placeholder="Email.." />
+          </div>
+
+          <div class="form-item">
+            <textarea
+              name="message"
+              id="message"
+              cols="50"
+              rows="20"
+              placeholder="Message.."
+            ></textarea>
+          </div>
+
+          <div class="form-item">
+            <button class="btn2" href="">Send !</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="right-container"></div>
     </div>
 
     <section>
@@ -139,8 +176,6 @@
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>Microsoft Office</h3></div>
-
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
