@@ -61,7 +61,7 @@ p {
 }
 
 footer {
-  height: 100px;
+  height: 10rem;
   background-color: #eeeeee;
   width: 100vm;
 }
@@ -71,6 +71,9 @@ img {
   height: auto;
 }
 
+svg {
+  width: 15rem;
+}
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -114,7 +117,7 @@ textarea {
 }
 
 .nav-link {
-  margin-right: 60px;
+  margin-right: 6px;
   margin-left: 60px;
 }
 
@@ -158,15 +161,16 @@ textarea {
 }
 
 .aboutme-section {
-  margin-bottom: 160px;
+  margin-bottom: 16rem;
   text-align: left;
 }
 .aboutme-containers {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
   justify-content: space-between;
   gap: 2.5rem;
-  margin-top: 25px;
+  margin-top: 2.5rem;
 }
 
 .passions-container {
@@ -180,7 +184,7 @@ textarea {
 }
 
 .projects-grid {
-  margin: 25px auto;
+  margin: 2.5rem auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -194,16 +198,13 @@ textarea {
   box-shadow: 0 0 10px 0 white;
 }
 
-.project-content-container {
-}
-
 .skills-section {
-  margin-top: 160px;
+  margin-top: 16rem;
 }
 /*----------- SKILLS SECTION -----------*/
 .skills-container {
   align-items: left;
-  margin-top: 24px;
+  margin-top: 2.4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
