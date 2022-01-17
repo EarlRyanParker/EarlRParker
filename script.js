@@ -27,9 +27,6 @@ document.addEventListener("keydown", function (e) {
 });
 
 //Email Implementation
-
-
-
 const sendMail = function(){
 
   var name = document.getElementById("fromname").value;
@@ -41,7 +38,7 @@ const sendMail = function(){
     message: message,
     email: email,
     });
-
+  
   closeModal();
 }
 
