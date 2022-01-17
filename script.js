@@ -1,5 +1,6 @@
 "use strict";
 
+
 //Select Modal Container
 const modal = document.querySelector(".modal");
 const showModal = document.querySelector(".nav-btn");
@@ -7,13 +8,11 @@ const closeModalWindow = document.querySelector(".close-modal");
 //Remove hidden class showing the
 const openModal = function () {
   modal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
 };
 
 //Add hidden class hiding the modal window
 const closeModal = function () {
   modal.classList.add("hidden");
-  overlay.classList.add("hidden");
 };
 
 showModal.addEventListener("click", openModal);
@@ -26,3 +25,34 @@ document.addEventListener("keydown", function (e) {
     closeModal();
   }
 });
+
+//Email Implementation
+
+
+
+const sendMail = function(){
+
+  var name = document.getElementById("fromname").value;
+  var message = document.getElementById("message").value;
+  var email =  document.getElementById("email").value;
+
+  emailjs.send("service_gopb0sl","template_zuaqfvd",{
+    from_name: name,
+    message: message,
+    email: email,
+    });
+
+  closeModal();
+}
+
+
+const sendButton = document.querySelector(".btn2");
+sendButton.addEventListener("click", sendMail);
+
+  
+
+
+
+
+
+
