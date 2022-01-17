@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 63.5rem) {
+@media (max-width: 64.1rem) {
   .nav-link {
     margin-right: 25px;
     margin-left: 25px;
@@ -21,15 +21,9 @@
   }
 }
 
-@media (max-width: 57rem) {
+@media (max-width: 51rem) {
   html {
-    font-size: 41%;
-  }
-}
-
-@media (max-width: 46rem) {
-  html {
-    font-size: 39%;
+    font-size: 50%;
   }
   .aboutme-containers {
     grid-template-columns: repeat(1, 1fr);
@@ -39,17 +33,49 @@
     grid-template-columns: 1fr;
   }
 
-  .toolbar {
-    display: none;
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .intro-container h2 {
+    font-size: 2.3rem;
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 45rem) {
   html {
-    font-size: 30%;
+    font-size: 45%;
+  }
+  .aboutme-containers {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .container {
-    max-width: 100rem;
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .links {
+    display: none;
+  }
+  .intro-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .menu-icon {
+    color: #eeeeee;
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .toolbar {
+    justify-content: end;
   }
 }

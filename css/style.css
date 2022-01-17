@@ -119,11 +119,11 @@ textarea {
 
 .nav-link {
   margin-right: 6px;
-  margin-left: 60px;
+  margin-left: 6rem;
 }
 
 .nav-btn {
-  margin-right: 60px;
+  margin-right: 6rem;
 }
 
 .download-btn {
@@ -143,6 +143,16 @@ textarea {
 .download-btn:active {
   cursor: pointer;
   box-shadow: 0 0 10px 0 black;
+}
+
+.mobile-menu-btn {
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.menu-icon {
+  color: #eeeeee;
 }
 /*----------- Landing Page SECTION -----------*/
 .intro-container {
