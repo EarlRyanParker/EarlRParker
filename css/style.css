@@ -58,6 +58,7 @@ hr {
 
 p {
   font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 footer {
@@ -179,6 +180,12 @@ textarea {
   box-shadow: 0 0 10px 0 white;
 }
 /*----------- PROJECTS SECTION -----------*/
+
+.project-title {
+  color: #010202;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
 .projects-section {
   text-align: left;
 }
@@ -196,6 +203,16 @@ textarea {
   text-align: left;
   padding: 24px;
   box-shadow: 0 0 10px 0 white;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-link {
+  color: #333;
+  font-size: 1.6rem;
 }
 
 .skills-section {
@@ -320,10 +337,13 @@ textarea {
 /*----------- FOOTER SECTION -----------*/
 
 .footer-container {
+  margin-top: 10rem;
 }
 .footer-links-container {
+  margin-top: 2rem;
 }
 .footer-links {
   font-size: 1.8rem;
   color: #393e46;
+  margin-right: 5rem;
 }

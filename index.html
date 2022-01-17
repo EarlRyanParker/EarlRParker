@@ -22,16 +22,15 @@
     <title>Earl.R Parker</title>
 
     <script
-    type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
 
-  </script>
-
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("user_s054f0leRDOR4FhkTTPhu");
-    })();
-  </script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_s054f0leRDOR4FhkTTPhu");
+      })();
+    </script>
   </head>
 
   <body>
@@ -63,7 +62,7 @@
           </div>
 
           <div class="form-item">
-            <input type="email" id="email"  placeholder="Email.." />
+            <input type="email" id="email" placeholder="Email.." />
           </div>
 
           <div class="form-item">
@@ -115,10 +114,9 @@
           </svg>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-            natus, laborum itaque non eum doloremque ullam ea delectus in, totam
-            nobis ducimus, cumque omnis labore temporibus aliquam culpa. Quod,
-            odio.
+            I am currently in my 2nd year of electrical engineering at McMaster University. Taking a range of courses:   Electrical Engineering, Logic Design, Electromagnetics, Circuits, and Systems, Electronic
+            Devices, Object-Oriented Programming, Data Structures, Algorithms, Microprocessor Systems, and
+            Integrated Engineering Design Projects
           </p>
         </div>
         <div class="passions-container">
@@ -137,10 +135,7 @@
             />
           </svg>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-            natus, laborum itaque non eum doloremque ullam ea delectus in, totam
-            nobis ducimus, cumque omnis labore temporibus aliquam culpa. Quod,
-            odio.
+            In my free time I am working on developing my programming abilities through online courses, youtube videos, online resarch, and building my own projects. My current area of programming is web development where i've developed skills in the following technologies HTML/CSS/JavaScript, SASS, Queries, NodeJS, Express, and MongoDB
           </p>
         </div>
 
@@ -158,10 +153,8 @@
             />
           </svg>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
-            natus, laborum itaque non eum doloremque ullam ea delectus in, totam
-            nobis ducimus, cumque omnis labore temporibus aliquam culpa. Quod,
-            odio.
+            
+            In the electrical engineering industry I am most passionate about electric vehicles. I am interesed in electrical design engineering due to its hands-on approach and out of the box thinking. Currently I'm working towards developing my understanding of electrical vehicles, electromagnetics and applicable technical skills (AutoCad Electrical, Altium)
           </p>
         </div>
       </div>
@@ -216,6 +209,18 @@
 
             <div class="progress-bar"></div>
           </div>
+
+          <div class="skilldescription-container">
+            <div class="skill-title"><h3>AutoCad</h3></div>
+
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="skilldescription-container">
+            <div class="skill-title"><h3>Revit</h3></div>
+
+            <div class="progress-bar"></div>
+          </div>
         </div>
       </section>
     </section>
@@ -227,20 +232,78 @@
       <div class="projects-grid">
         <div class="project-container">
           <div class="project-content-container">
-            <div>
-              <h4>Electrical Engineering</h4>
-              <h3>Microprocessor Systems Project</h3>
+            <div> 
+
+              <div class="project-header">
+                <div>
+                  <h4>Electrical Engineering</h4>
+                  <h3>Microprocessor Systems Project:</h3>
+                  <h2 class="project-title">Spatial Mapping Using Time-of-Flight</h2>
+                </div>
+
+                <div>
+                  <h4>Winter 2022</h4>
+                </div>
+
+              </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                saepe error possimus fuga dolorem ab totam fugit deserunt,
-                assumenda aperiam. Harum dolorum illum doloribus rem, deserunt
-                cupiditate possimus quasi recusandae numquam saepe ullam! Ut
-                tempore dolore iste accusamus, repudiandae ratione?
+                Commerical LIDAR equipment can be expensive and bulky. the goal
+                of this project is to mimic LIDAR application in a manner that
+                is less expensive, compact, and suitable for indoor exploration.
+                In this project we design and build an embedded spatial
+                measurement system using a time-of-flight sensor to acquire
+                information about the area around you. Using a rotary mechanism
+                to provide a 360 degree measurement of distance within a single
+                vertical geometric plane (e.g., y-z), you must integrate fixed
+                distance samples along the orthogonal axis (e.g., x-axis).
+                Mapped spatial information is stored in onboard memory and later
+                communicated to a personal computer or web application for
+                reconstruction and graphical presentation.
               </p>
+              <p>_</p>
+              <p><strong>
+                Skills applied Microcontroller Assembley Langauge, Keil, Microsoft Office</strong></p>
             </div>
 
+            <div></div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-content-container">
             <div>
-              <img src="images/engineer.png" alt="" />
+              <div class="project-header">
+                <div>
+                  <h4>Electrical Engineering</h4>
+                  <h3>Integrated Design Projects:</h3>
+                  <h2 class="project-title">Source Water Monitoring System</h2>
+                </div>
+
+                <div>
+                  <h4>Winter 2022</h4>
+                </div>
+
+              </div>
+              <p>
+                Climate change is significantly impacting the quality of our
+                drinking water sources through floods, wildfires, and harmful
+                algal blooms. One of the biggest challenges faced by drinking
+                water treatment plants is sudden changes to source water
+                quality. When this happens, the plant must quickly adapt its
+                treatment process. As such, early detection of changes in source
+                water quality is critical in the protection of human health. The
+                goal of this project is to design a system using drones, image
+                analysis, and machine learning to monitor source waters for
+                algal blooms. The design must consider errors (i.e., detection
+                of algae where there is none, or vice versa), and make technical
+                decisions to reduce errors (e.g., fly height, image quality,
+                number and frequency of images, weather conditions). Flight
+                paths should also be considered.
+              </p>
+              <p>_</p>
+              <p><strong>
+                Skills applied Computer-Aided Design(Autodesk Inventor), Developing engineering drawings, Machine Learning(Python + Keras API), Drone Control, Microsoft Office</strong></p>
+              
             </div>
           </div>
         </div>
@@ -248,19 +311,24 @@
         <div class="project-container">
           <div class="project-content-container">
             <div>
-              <h4>Electrical Engineering</h4>
-              <h3>Integrated Design Projects</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                saepe error possimus fuga dolorem ab totam fugit deserunt,
-                assumenda aperiam. Harum dolorum illum doloribus rem, deserunt
-                cupiditate possimus quasi recusandae numquam saepe ullam! Ut
-                tempore dolore iste accusamus, repudiandae ratione?
-              </p>
-            </div>
+              <div class="project-header">
+                <div>
+                  <h4>Web Development</h4>
+                  <h3>Personal Projects:</h3>
+                  <h2 class="project-title">Earl R Parker CV Website</h2>
+                </div>
 
-            <div>
-              <img src="images/engineer.png" alt="" />
+                <div>
+                  <h4>Fall 2021</h4>
+                </div>
+
+              </div>
+              <p>
+                In 2022 employers are venturing online for job recruitment more than ever. Applying for engineering jobs require project portfolios showcasing ones engineering aptitude. The goal of this project was to develop a personal CV website using HTML/CSS/JavaScript where potential employers can view information about myself, download my resume, and contact me. Another goal of mine was to create an on-going project were I can impelement and apply what i've been learning in my web development courses to furthur cement concepts and build a strong foundation in web development. 
+              </p>
+              <p>-</p>
+              <p><strong>Skills applied: HTML, CSS, JavaScript, Queries, API Implmentation, SASS</strong></p>
+              
             </div>
           </div>
         </div>
@@ -268,20 +336,56 @@
         <div class="project-container">
           <div class="project-content-container">
             <div>
-              <h4>Web Development</h4>
-              <h3>HIZ & HERS Hair Studio Website</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                saepe error possimus fuga dolorem ab totam fugit deserunt,
-                assumenda aperiam. Harum dolorum illum doloribus rem, deserunt
-                cupiditate possimus quasi recusandae numquam saepe ullam! Ut
-                tempore dolore iste accusamus, repudiandae ratione?
-              </p>
-            </div>
+              <div class="project-header">
+                <div>
+                  <h4>Engineering Design</h4>
+                  <h3>Integrated Cornerstone Design Projects in Engineering:</h3>
+                  <h2 class="project-title">Surgical Instrument Sterilization Container</h2>
+                </div>
 
-            <div>
-              <img src="images/engineer.png" alt="" />
+                <div>
+                  <h4>Winter 2021</h4>
+                </div>
+
+              </div>
+              <p>
+                
+                The goal of the project was to work in engineering teams to design a container for securely transferring a surgical instrument to an autoclave for sterilization. The engineering team was divided into two subteams, computing and modeling. I was assigned to the modeling team where I researched, collaborated,designed, prototyped and utlized computer aided design to create a 3-D Model while accounting for project constraints (demensions/size, weight and material cost)
+
+              </p>
+              <p>_</p>
+              <p><strong>
+                Skills applied Computer-Aided Design(Autodesk Inventor), Developing engineering drawings, Prototyping, 3-D Printing/Slicer Program, Microsoft Office</strong></p>
+
+              
             </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-content-container">
+            <div>
+              <div class="project-header">
+                <div>
+                  <h4>Engineering Design</h4>
+                  <h3>Integrated Cornerstone Design Projects in Engineering:</h3>
+                  <h2 class="project-title">Renewable Energy Challenge</h2>
+                </div>
+
+                <div>
+                  <h4>Fall 2020</h4>
+                </div>
+
+              </div>
+              <p>
+                The goal of the project was to design a wind turbine for The Guatemalan city of Quetzaltenango that is off the grid. This turbine design should provide enough energy to power simple electrical devices like LED lights. The design should also be simple enough so that multiple units can be assembled from widely available materials by local workers. At the same time, the turbines should be long lasting and require little maintenance
+              </p>
+              <p>-</p>
+              <p><strong>Skills applied: AutoDesk Inventor, Granta Material Database, Deflection Analysis, Microsoft Office</strong></p>
+              
+            </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>
@@ -303,8 +407,6 @@
       </div>
     </footer>
     <script src="script.js"></script>
-
-  
   </body>
 </html>
 <!-- HTML !-->
