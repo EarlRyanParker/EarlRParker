@@ -93,8 +93,8 @@ input[type="email"] {
 }
 
 textarea {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   padding: 12px 20px;
   border: none;
   box-sizing: border-box;
@@ -162,6 +162,8 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+
+  animation: moveInBottom 2s;
 }
 
 /*----------- About Me SECTION -----------*/
@@ -302,7 +304,7 @@ textarea {
   background-color: white;
   box-shadow: 0 0 1rem white;
   z-index: 10;
-  height: 70%;
+  height: 50rem;
   display: flex;
   justify-content: center;
 }
@@ -356,4 +358,21 @@ textarea {
   font-size: 1.8rem;
   color: #393e46;
   margin-right: 5rem;
+}
+
+/*----------- Animations -----------*/
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(60rem);
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
