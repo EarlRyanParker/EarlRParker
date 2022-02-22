@@ -1,6 +1,5 @@
 "use strict";
 
-
 //Select Modal Container
 const modal = document.querySelector(".modal");
 const showModal = document.querySelector(".nav-btn");
@@ -27,29 +26,26 @@ document.addEventListener("keydown", function (e) {
 });
 
 //Email Implementation
-const sendMail = function(){
-
+const sendMail = function () {
   var name = document.getElementById("fromname").value;
   var message = document.getElementById("message").value;
-  var email =  document.getElementById("email").value;
+  var email = document.getElementById("email").value;
 
-  emailjs.send("service_gopb0sl","template_zuaqfvd",{
+  emailjs.send("service_gopb0sl", "template_zuaqfvd", {
     from_name: name,
     message: message,
     email: email,
-    });
-  
-  closeModal();
-}
+  });
 
+  closeModal();
+};
 
 const sendButton = document.querySelector(".btn2");
 sendButton.addEventListener("click", sendMail);
 
-  
+//Mobile Menu Implementation
+const menuBtn = document.querySelector(".mobile-menu-btn");
+const introContainer = document.querySelector(".mobile-intro-container");
+const openMenu = function () {};
 
-
-
-
-
-
+menuBtn.addEventListener("click", openMenu);

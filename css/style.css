@@ -170,6 +170,17 @@ textarea {
   display: none;
 }
 
+.mobile-link-container {
+  display: grid;
+  align-items: center;
+}
+
+.mobile-link-container a {
+  font-size: 6rem;
+  margin-bottom: 4rem;
+  width: 50%;
+}
+
 /*----------- About Me SECTION -----------*/
 
 .icons {
