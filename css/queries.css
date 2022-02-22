@@ -42,10 +42,27 @@
   }
 }
 
-@media (max-width: 45rem) {
+@media (max-width: 48rem) {
   html {
     font-size: 41%;
   }
+
+  .intro-container {
+    display: none;
+  }
+
+  .mobile-intro-container {
+    display: block;
+    margin-top: 40vh;
+    margin-bottom: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    animation: moveInBottom 2s;
+  }
+
   .aboutme-containers {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -55,14 +72,22 @@
   }
 
   h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
     font-size: 2.5rem;
   }
 
   .links {
     display: none;
-  }
-  .intro-container h2 {
-    font-size: 2.6rem;
   }
 
   .mobile-menu-btn {

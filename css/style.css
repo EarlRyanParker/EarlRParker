@@ -166,6 +166,10 @@ textarea {
   animation: moveInBottom 2s;
 }
 
+.mobile-intro-container {
+  display: none;
+}
+
 /*----------- About Me SECTION -----------*/
 
 .icons {
