@@ -6,7 +6,7 @@
 
 @media (max-width: 68rem) {
   html {
-    font-size: 50%;
+    font-size: 58%;
   }
 }
 
@@ -44,7 +44,7 @@
 
 @media (max-width: 48rem) {
   html {
-    font-size: 41%;
+    font-size: 45%;
   }
 
   .intro-container {
