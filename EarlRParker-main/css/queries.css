@@ -1,0 +1,109 @@
+@media (max-width: 75rem) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 68rem) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 64.1rem) {
+  .nav-link {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .nav-btn {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 51rem) {
+  html {
+    font-size: 50%;
+  }
+  .aboutme-containers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  .intro-container h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  html {
+    font-size: 45%;
+  }
+
+  .intro-container {
+    display: none;
+  }
+
+  .mobile-intro-container {
+    display: block;
+    margin-top: 40vh;
+    margin-bottom: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    animation: moveInBottom 2s;
+  }
+
+  .aboutme-containers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+  }
+  .links {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .menu-icon {
+    color: #eeeeee;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .toolbar {
+    justify-content: end;
+  }
+}
