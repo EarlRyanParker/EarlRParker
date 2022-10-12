@@ -206,6 +206,10 @@ textarea {
   padding: 10px;
   box-shadow: 0 0 10px 0 white;
 }
+
+.RoboMasterLogo {
+  width: 15rem;
+}
 /*----------- PROJECTS SECTION -----------*/
 
 .project-title {

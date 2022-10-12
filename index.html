@@ -119,7 +119,7 @@
     
         <a
           class="download-btn"
-          href="EarlRyanParkerResume2022.pdf"
+          href="EarlRyanParkerResume2023.pdf"
           download="EarlRParker Resume"
           >Resume</a
         >
@@ -158,6 +158,27 @@
           </p>
 
         </div>
+       
+
+        <div class="passions-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icons"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <p>
+            
+            In the electrical engineering industry I am most passionate about robotics. I am most curious and would like to expand my applicable knowledge of embedded systems and printed circuit board design. As I am heavily interested in interfacing with Microcontrollers, peripherals, and serial communication.
+          </p>
+        </div>
+
         <div class="passions-container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -178,26 +199,10 @@
           </p>
         </div>
 
-        <div class="passions-container">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icons"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <p>
-            
-            In the electrical engineering industry I am most passionate about electric vehicles. I am most curious and would like to expand my applicable knowledge of motor drive kits. As I am heavily interested in interfacing with electric motors, inverters, and accumulator technology.
-          </p>
-        </div>
+        
       </div>
 
+      
       <section id="skill-set-id" class="skills-section">
         <h2>Skills Set</h2>
         <hr />
@@ -205,32 +210,23 @@
         
         <div class="skills-container">
           
-          
-          
-          
           <div class="skilldescription-container">
             <div class="skill-title"><h3>Arduino</h3></div>
           </div>
 
-        
-
-          
-
+      
           <div class="skilldescription-container">
             <div class="skill-title"><h3>Matlab</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>AutoDesk Inventor</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
           <div class="skilldescription-container">
             <div class="skill-title"><h3>HTML/CSS</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
@@ -240,31 +236,26 @@
           <div class="skilldescription-container">
             <div class="skill-title"><h3>JavaScript</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>3-D Printing</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>C++</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>Python</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
           <div class="skilldescription-container">
             <div class="skill-title"><h3>Sass</h3></div>
 
-            <div class="progress-bar"></div>
           </div>
 
          
@@ -281,6 +272,59 @@
       <hr />
 
       <div class="projects-grid">
+
+        <div class="project-container">
+          <div class="project-content-container">
+            <div> 
+
+              <div class="project-header">
+                <div>
+                  <h4>Electrical Engineering</h4>
+                  <h3>Personal Projects:</h3>
+                  <h2 class="project-title">Multi-Purpose Remote-Controlled Rover</h2>
+                </div>
+                <div>
+                  <h4>Summer 2023</h4>
+                </div>
+
+              </div>
+              <p>
+              The goal of this project is to develop an all terrain rover. The rover will feature a raspberry pi and a camera module that provides live video transmitted to a personal computer. it will be able to record videos, take pictures, and store them on an onboard sd card. The chassis of the rover will be 3D printed and will have rails for inserting multi pupose attachents (robotic arm, drone carrying pad, storage container, etc). The real time events will be handled by an arudino that will control 6 DC motors, acclerometer and temperature sensors
+              <p>_</p>
+              <p><strong>
+                Skills applied Embedded C, Python, Arduino, Raspberry PI, AutoDesk Inventor, 3D Printing, Wireless Serial Communication, </strong></p>
+            </div>
+
+            <div></div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-content-container">
+            <div> 
+
+              <div class="project-header">
+                <div>
+                  <h4>Electrical Engineering</h4>
+                  <h3>Personal Projects:</h3>
+                  <h2 class="project-title">Remote-Controlled Arduino Car</h2>
+                </div>
+
+                <div>
+                  <h4>Summer 2022</h4>
+                </div>
+
+              </div>
+              <p>
+               The goal of this project was to create a stepping stone before developing my mutli purpose rc rover by learning the fundamentals of robotic controls and arduino programming. By using two arduinos, nrf24 transmitters and SPI communication a thumbstick controller is able to wirelessly communicate with an onboard arduino to control the DC and stepper motors. The onboard arduino recieves thumbstick coordinates via serial communication and by utlizing conditional statments determines what motors should be activated. A ultra sonic sensor is mounted at the rear of the vehicle. The onboard arduino recieves data from the sensor and offers back up assistance when reversing the car. The final product has wireless control, rear wheel drive, stepper motor axle steering, back up assistance, and a 3D printed chassis.
+              <p>_</p>
+              <p><strong>
+                Skills applied Embedded C, Microcontroller Integration, 3D Printing, Wireless Serial Communication, Microsoft Office</strong></p>
+            </div>
+
+            <div></div>
+          </div>
+        </div>
+
         <div class="project-container">
           <div class="project-content-container">
             <div> 
